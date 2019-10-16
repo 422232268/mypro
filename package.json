@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server/indes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/422232268/mypro/issues"
   },
-  "homepage": "https://github.com/422232268/mypro#readme"
+  "homepage": "https://github.com/422232268/mypro#readme",
+  "dependencies": {
+    "koa": "^2.10.0"
+  }
 }
